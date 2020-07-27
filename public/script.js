@@ -3,8 +3,8 @@
 const socket = io('/')
 const videoGrid =document.getElementById('video-grid')
 const myPeer = new Peer(undefined,{
-    host:'https://hkt-peer-server.herokuapp.com',
-    port:'9000'
+    host:'hkt-peer-server.herokuapp.com',
+    port:''
 })
 const myVideo = document.createElement('video')
 myVideo.muted = true
